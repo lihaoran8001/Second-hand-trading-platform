@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Start</class>
+ <widget class="QMainWindow" name="Start">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{border-image: url(:/backgroundst.PNG);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1042</x>
+      <y>48</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton{
+background-color: rgb(85, 255, 127);
+border-radius:10px;
+color: rgb(255, 255, 255);
+font: 11pt &quot;黑体&quot;;
+border:1px solid white
+}
+#pushButton:hover{
+background-color: rgba(85, 255, 127,150);
+border-radius:10px;
+color: rgb(255, 255, 255,);
+	font: 11pt &quot;黑体&quot;;
+}
+#pushbutton:press{background-color: rgba(85, 255, 127,50);
+border-radius:10px;
+color: rgb(255, 255, 255);
+	font: 11pt &quot;黑体&quot;;}</string>
+    </property>
+    <property name="text">
+     <string>我要发单</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1041</x>
+      <y>98</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_2{
+background-color: rgb(230, 230, 0);
+border-radius:10px;
+	font: 11pt &quot;黑体&quot;;
+border:1px solid white;
+	color: rgb(255, 255, 255);
+}
+#pushButton_2:hover{
+background-color: rgba(230, 230, 0,50);
+border-radius:10px;
+	font: 11pt &quot;黑体&quot;;
+	color: rgb(255, 255, 255);
+}
+#pushbutton_2:press{
+background-color: rgba(230, 230, 0,50);
+border-radius:10px;
+	font: 11pt &quot;黑体&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>我的发单</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>150</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_3{
+background-color: rgb(170, 85, 255);
+border-radius:10px;
+font: 11pt &quot;黑体&quot;;
+border:1px solid white;
+	color: rgb(255, 255, 255);
+}
+#pushButton_3:hover{
+background-color: rgba(170,85,255,50);
+border-radius:10px;
+	font: 11pt &quot;黑体&quot;;
+	color: rgb(255, 255, 255);
+}
+#pushbutton_3:press{
+background-color: rgba(170,85,255,50);
+border-radius:10px;
+	font: 11pt &quot;黑体&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>我的接单</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>650</y>
+      <width>55</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_4{
+border-radius:10px;
+border-radius:13px;
+border-image: url(:/image/fz5.png);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>I D：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>87</y>
+      <width>54</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>信用值：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>139</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;修改资料&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+#pushButton_5{
+border-image: url(:/image/pencil11.png);
+	background-color: rgb(255, 170, 0);
+border-radius:12px;
+border:2px solid white;
+}
+#pushButton_5:hover{
+border-image: url(:/image/pencil11.png);
+background-color: rgba(255, 170, 0,50);
+border-radius:12px;
+border:2px solid white;
+}
+#pushbutton_5:press{
+border-image: url(:/image/pencil11.png);
+background-color: rgb(255, 170, 0,50);
+border-radius:12px;;
+	font: 11pt &quot;黑体&quot;;
+border:1px solid white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchButton">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>199</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+#searchButton{
+background-color: rgb(220, 220, 220);
+border-radius:10px;
+font: 11pt &quot;黑体&quot;;
+border:1px solid white;
+	color: rgb(255, 255, 255);
+}
+#searchButton:hover{
+background-color: rgba(220, 220, 220,150);
+border-radius:10px;
+	font: 11pt &quot;黑体&quot;;
+	color: rgb(255, 255, 255);
+}
+#searchButton:press{
+background-color: rgba(220, 220, 220,50);
+border-radius:10px;
+	font: 11pt &quot;黑体&quot;;
+	color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>查找界面</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>25</y>
+      <width>850</width>
+      <height>680</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget_2{
+border-radius:15px;
+background-color: rgba(255, 255, 255,100);
+}</string>
+    </property>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>15</y>
+       <width>850</width>
+       <height>650</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#widget{background-color: rgba(255, 255, 255,0);
+}</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>1042</x>
+      <y>98</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_8{
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0.721294, y2:0.034, stop:0 rgba(255, 255, 127, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;
+color: rgb(255, 255, 255);
+	font: 11pt &quot;黑体&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>1042</x>
+      <y>48</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_6{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0.627, y2:0.0233636, stop:0 rgba(85, 255, 127, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;
+color: rgb(255, 255, 255);
+	font: 11pt &quot;黑体&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>200</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(112, 112, 112);
+border-radius:10px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>150</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: qlineargradient(spread:pad, x1:0.313075, y1:0.915, x2:0.339, y2:0.0297273, stop:0 rgba(223, 0, 255, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>200</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0.588, y2:0, stop:0 rgba(181, 181, 181, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:10px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>38</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+#label_13{
+background-color: qlineargradient(spread:pad, x1:0.129, y1:0.988636, x2:0.164925, y2:0.291, stop:0 rgba(255, 186, 0, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:12px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_13</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>widget_2</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>searchButton</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_4</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

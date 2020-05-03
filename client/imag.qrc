@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>ima.jpg</file>
+        <file>pushsearch.png</file>
+        <file>zhuceback.PNG</file>
+        <file>citamain2.png</file>
+        <file>feiji.png</file>
+        <file>qiche.png</file>
+        <file>5a46085008e20.psd</file>
+        <file>捕获.PNG</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>backgroundst.PNG</file>
+    </qresource>
+</RCC>

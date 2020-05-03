@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>searchshow</class>
+ <widget class="QScrollArea" name="searchshow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ScrollArea</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#searchwidget{background-color: rgba(255, 255, 255,0);}
+#searchshow{background-color: rgba(255, 255, 255,0);
+}</string>
+  </property>
+  <property name="widgetResizable">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="searchwidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>848</width>
+     <height>648</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>850</width>
+      <height>105</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget
+{
+background-color: rgba(255, 255, 255,0);
+}</string>
+    </property>
+    <widget class="QPushButton" name="searchButton">
+     <property name="geometry">
+      <rect>
+       <x>635</x>
+       <y>22</y>
+       <width>70</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	image: url(:/image/sousuo.png);
+border-radius:15px;
+padding:4px 8px;
+color: rgb(255, 255, 255);
+	background-color: rgb(85, 85, 255);
+}
+QPushButton:hover{
+image: url(:/image/sousuo.png);
+border-radius:15px;
+padding:4px 8px;
+color: rgb(255, 255, 255);
+background-color: rgba(85, 85, 255,150);
+
+}
+QPushButton:pressed{
+image: url(:/image/sousuo.png);
+border-radius:15px;
+padding:4px 8px;
+color: rgb(255, 255, 255);
+background-color: rgba(85, 85, 255,50);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FromEdit">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>10</y>
+       <width>300</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ToEdit">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>60</y>
+       <width>300</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>华文楷体</family>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>  起始地：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>华文楷体</family>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>  目的地：</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>637</x>
+       <y>22</y>
+       <width>70</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0.538, y2:0.0290455, stop:0 rgba(85, 85, 255, 255), stop:1 rgba(255, 255, 255, 255));
+border-radius:15px;
+padding:4px 8px;
+color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>635</x>
+       <y>22</y>
+       <width>70</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(83, 83, 83);
+border-radius:15px;
+padding:4px 8px</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_10</zorder>
+    <zorder>label_12</zorder>
+    <zorder>searchButton</zorder>
+    <zorder>FromEdit</zorder>
+    <zorder>ToEdit</zorder>
+    <zorder>label</zorder>
+    <zorder>label_2</zorder>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>105</y>
+      <width>851</width>
+      <height>530</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="uwidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>849</width>
+       <height>528</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#uwidget{
+	background-color: rgba(255, 255, 255,150);
+}</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

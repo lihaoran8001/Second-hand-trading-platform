@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>s.png</file>
+        <file>s22.png</file>
+        <file>s33.png</file>
+        <file>s44.png</file>
+        <file>yxx.png</file>
+        <file>s3.png</file>
+        <file>s333.png</file>
+        <file>s222.png</file>
+        <file>s555.png</file>
+        <file>s4.png</file>
+        <file>s5.png</file>
+        <file>s6.png</file>
+        <file>s7.png</file>
+        <file>city3.png</file>
+        <file>city4.png</file>
+        <file>city5.png</file>
+        <file>city6.png</file>
+        <file>city7.png</file>
+        <file>city9.png</file>
+        <file>fz2.png</file>
+        <file>gai.png</file>
+        <file>jx2.png</file>
+        <file>money.png</file>
+        <file>object.png</file>
+        <file>pencil.png</file>
+        <file>qidian.png</file>
+        <file>qiche.png</file>
+        <file>time.png</file>
+        <file>zhongdian.png</file>
+        <file>sousuo.png</file>
+        <file>zl.png</file>
+        <file>xfz.png</file>
+        <file>xfz2.png</file>
+        <file>fz3.png</file>
+        <file>pencil1.png</file>
+        <file>hpbj.png</file>
+        <file>pencil11.png</file>
+        <file>zy.jpg</file>
+        <file>fz5.png</file>
+        <file>QQ图片20180912164511.jpg</file>
+        <file>QQ图片20180912171305.jpg</file>
+    </qresource>
+</RCC>
